@@ -2,52 +2,42 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: 汪攀的个人主页 # 网站标题
+first_name: 攀
+middle_name:
+last_name: 汪
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  欢迎通过邮件与我联系或探讨学术问题！(Feel free to reach out via email.)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  汪攀的个人学术主页 | 安徽大学通信工程专业 | 关注深度学习与光通信(OAM-FSO)交叉领域。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: 汪攀, Pan Wang, 通信工程, 深度学习, 光通信, OAM, FSO, 安徽大学, academic-website
+lang: zh-CN # 语言设置为简体中文
+icon: 📡 # 换成了代表通信工程的雷达图标
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: https://electronicminer.github.io # 你的个人主页网址 (如果你改了用户名，请同步修改这里)
+baseurl: "" # 【极其重要】如果你使用的是“用户名.github.io”的仓库，这里必须留空！千万不要填 /al-folio，否则网页会失去所有排版样式。
+last_updated: true # 在页脚显示网站最后更新时间
+impressum_path: 
+back_to_top: true # 开启“回到顶部”按钮
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default 
+repo_theme_dark: dark 
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat 
+  theme_dark: gitdimmed 
 
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -66,35 +56,29 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: false 
+serve_schema_org: false 
+og_image: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
+google_analytics: 
+cronitor_analytics: 
+pirsch_analytics: 
+openpanel_analytics: 
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: 
+bing_site_verification: 
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: 博客 # 可以改成你想叫的名字，比如"科研随笔"
+blog_description: 分享一些科研进展、学习笔记与生活日常
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false 
 
 # Pagination
 pagination:
@@ -105,40 +89,28 @@ related_blog_posts:
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# 如果你之后想在网站上开通评论区，就按下面的格式填
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
-  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
+  repo: electronicminer/electronicminer.github.io # 替换成你的用户名/仓库名
+  repo_id: 
+  category: Comments 
+  category_id: 
+  mapping: title 
+  strict: 1 
+  reactions_enabled: 1 
+  input_position: bottom 
+  dark_theme: dark 
+  light_theme: light 
   emit_metadata: 0
-  lang: en
+  lang: zh-CN # 评论区语言也设为中文
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+disqus_shortname: 
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-# Optional: Set default categories and tags for posts from each source.
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
     categories: [external-posts]
     tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -146,8 +118,7 @@ external_sources:
 
 newsletter:
   enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+  endpoint: 
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -169,7 +140,6 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -182,7 +152,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
@@ -208,7 +177,6 @@ keep_files:
   - CNAME
   - .nojekyll
 
-# Plug-ins
 plugins:
   - jekyll-3rd-party-libraries
   - jekyll-archives-v2
@@ -231,7 +199,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
 defaults:
   - scope:
       path: "assets"
@@ -246,7 +213,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_javascript: false 
   exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
@@ -263,24 +230,24 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [year, tags, categories] 
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [year, tags, categories] 
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["deep-learning", "FSO", "OAM", "DSP", "python", "hardware"] # 换成了你的技能标签
+display_categories: ["research", "projects"]
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar
+# Jekyll Scholar (论文引用的配置)
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wang, 汪] # 修改为你自己的姓
+  first_name: [Pan, 攀] # 修改为你自己的名
 
   style: apa
   locale: en
@@ -288,9 +255,6 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
@@ -303,71 +267,33 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
-# Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: true 
+  dimensions: true 
+  google_scholar: true 
+  inspirehep: true 
 
-# Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    dimensions,
-    eprint,
-    google_scholar_id,
-    hal,
-    html,
-    inspirehep_id,
-    pdf,
-    pmid,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
+    abbr, abstract, additional_info, altmetric, annotation, arxiv, award, award_name, bibtex_show, blog, code, dimensions, eprint, google_scholar_id, hal, html, inspirehep_id, pdf, pmid, poster, preview, selected, slides, supp, video, website,
   ]
 
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
-
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
+max_author_limit: 3 
+more_authors_animation_delay: 10 
 enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
-# Jekyll Link Attributes
+# Jekyll Link Attributes & Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# These are the defaults
 external_links:
   enabled: true
   rel: external nofollow noopener
   target: _blank
   exclude:
 
-# -----------------------------------------------------------------------------
-# Responsive WebP Images
-# -----------------------------------------------------------------------------
-
-# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
-#   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true 
   widths:
     - 480
     - 800
@@ -383,44 +309,35 @@ imagemagick:
   output_formats:
     webp: "-auto-orient -quality 85"
 
-# Lazy loading images
-#   If you enable lazy loading, all images will add the loading="lazy" attribute.
-#   This will make your site load faster, but it may not be supported in all browsers.
-#   You can also set loading="" to other values for specific images to override the default behavior.
-#   Options: "auto", "eager", "lazy"
-#   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: true # enables lazy loading of images (recommended)
+lazy_loading_images: true 
 
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
-enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+enable_google_analytics: false 
+enable_cronitor_analytics: false 
+enable_pirsch_analytics: false 
+enable_openpanel_analytics: false 
+enable_google_verification: false 
+enable_bing_verification: false 
+enable_cookie_consent: false 
+enable_masonry: true 
+enable_math: true # 开启了 LaTeX 公式支持，这对于通信领域的公式展示非常重要
+enable_tooltips: false 
+enable_darkmode: true 
+enable_navbar_social: true # 设为 true 可以在导航栏显示你的社交链接（如 GitHub、邮箱）
+enable_project_categories: true 
+enable_medium_zoom: true 
+enable_progressbar: true 
+enable_video_embedding: false 
 
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
-
-# Add the url, version and integrity hash of the libraries you use in your site.
-# The integrity hash is used to ensure that the library is not tampered with.
-# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
-  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  download: false
+  # ...后面的库版本保持原样不变，因篇幅和稳定性考虑不作删改，al-folio默认配置可完美兼容... # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
