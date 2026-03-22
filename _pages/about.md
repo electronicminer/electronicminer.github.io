@@ -1,27 +1,31 @@
 ---
 layout: about
-title: 关于我 (About)
+title: About
 permalink: /
-subtitle: 安徽大学电子信息工程学院 | 通信工程专业 本科生
+subtitle: Undergraduate in Communication Engineering, Anhui University
 
 profile:
   align: right
-  image: prof_pic.jpg # 记得在仓库的 assets/img/ 文件夹里上传一张你的证件照或生活照，并命名为 prof_pic.jpg
-  image_circular: false # 如果想让照片显示为圆形，可以把这里改成 true
+  image: prof_pic.jpg
+  image_circular: false
   address: >
-    <p>安徽省合肥市</p>
-    <p>安徽大学 磬苑校区</p>
+    <p>Hefei, Anhui Province</p>
+    <p>Anhui University</p>
 
-news: false # 暂时关闭新闻动态，等以后有内容了可以设为 true
-latest_posts: false # 暂时关闭博客展示
-selected_papers: true # 开启代表作展示（会自动关联我们接下来要配置的论文源）
-social: true # 在页面底部显示你的邮箱等联系方式
+news: false
+latest_posts: false
+selected_papers: false # 这里设为 false，爱因斯坦的假论文就会消失了
+social: true
 ---
 
-你好！我是**汪攀**，目前是[安徽大学](https://www.ahu.edu.cn/)（211/双一流建设高校）电子信息工程学院通信工程专业的一名本科生。我的学业成绩优异（GPA: 4.27/5.0，专业排名 4/163，前 2.5%），曾获得安徽大学优秀学生奖学金、学术科技奖学金等荣誉。
+<div align="right">
+  <a href="/zh/"><kbd>🇨🇳 简体中文</kbd></a>
+</div>
 
-我的核心研究兴趣集中在**深度学习与光通信的交叉应用**以及**数字信号处理（DSP）**。目前，我的研究工作聚焦于自由空间光通信（FSO）中大气湍流引起的波前畸变与模态串扰问题。我提出了一种基于物理感知 Transformer（Uformer-OAM）与软信息校准的级联深度学习框架，该工作致力于为大容量无线光通信提供低成本的软件解调方案。作为第一作者，相关论文目前正在中科院二区期刊审稿中。
+Hello! I am **Pan Wang**, currently an undergraduate student majoring in Communication Engineering at the School of Electronic Information Engineering, [Anhui University](https://www.ahu.edu.cn/) (Project 211 / Double First-Class University). I maintain an excellent academic record (GPA: 4.27/5.0, Rank: 4/163, Top 2.5%) and have been awarded the Excellent Student Scholarship and Academic & Technology Scholarship of Anhui University.
 
-除了前沿算法研究，我也非常热爱硬件底层与软硬协同开发。我拥有扎实的嵌入式系统开发经验，熟悉 8051、MSPM0G3507 等主控芯片，熟练掌握 Python、MATLAB 以及各类电路设计工具。我曾主导或参与了多个具有挑战性的工程项目，包括“基于新体制阵列天线与 USRP 的通感一体化（ISAC）无人机探测系统”，以及获得全国大学生电子设计大赛安徽省二等奖的“基于多传感融合与机器视觉的自行瞄准设备”。
+My core research interests lie in the **intersection of Deep Learning and Optical Communications**, as well as **Digital Signal Processing (DSP)**. Currently, my research focuses on mitigating wavefront distortion and mode crosstalk caused by atmospheric turbulence in Free-Space Optical (FSO) communications. I proposed a cascaded deep learning framework based on a physics-aware Transformer (Uformer-OAM) and soft information calibration, which aims to provide a low-cost software demodulation solution for high-capacity FSO communications. As the first author, the related paper is currently under review in a CAS Q2 journal.
 
-我坚信理论与实践的结合才能产出最具价值的科研成果。我目前正在积极准备研究生的申请与推免面试，如果您对我的研究背景或工程经历感兴趣，非常欢迎随时通过邮件与我探讨交流！
+Beyond cutting-edge algorithm research, I am also highly passionate about low-level hardware and software-hardware co-design. I have solid experience in embedded system development, familiar with MCUs like 8051 and MSPM0G3507, and proficient in Python, MATLAB, and various circuit design tools. I have led or participated in several challenging engineering projects, including an "Integrated Sensing and Communication (ISAC) UAV Detection System based on Novel Array Antennas and USRP," and a "Self-Aiming Device based on Multi-Sensor Fusion and Machine Vision," which won the Second Prize in the National Undergraduate Electronics Design Contest (NUEDC) in Anhui Province.
+
+I firmly believe that combining theory with practice yields the most valuable scientific outcomes. I am currently actively preparing for graduate school applications and interviews. If you are interested in my research background or engineering experience, please feel free to reach out to me via email!
