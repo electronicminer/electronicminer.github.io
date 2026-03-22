@@ -17,6 +17,17 @@ keywords: 汪攀, Pan Wang, 通信工程, 深度学习, 光通信, OAM, FSO, 安
 lang: zh-CN # 语言设置为简体中文
 icon: 📡 # 换成了代表通信工程的雷达图标
 
+# -----------------------------------------------------------------------------
+# 个人联系方式 (Social / Contact)
+# -----------------------------------------------------------------------------
+email: wangpan040930@163.com
+github_username: electronicminer
+scholar_userid:  # 留空：带学士帽的 Google Scholar 图标将自动消失
+linkedin_username:  # 留空：LinkedIn 图标将自动消失
+research_gate_profile:  # 留空：爱因斯坦的头像将自动消失
+x_username:  # Twitter/X 账号，留空不显示
+wechat_qrcode:  # 如果想让别人加你微信，可以传一张二维码图片到 assets/img/ 文件夹，并在这里填入 assets/img/你的二维码名字.jpg
+
 url: https://electronicminer.github.io # 你的个人主页网址 (如果你改了用户名，请同步修改这里)
 baseurl: "" # 【极其重要】如果你使用的是“用户名.github.io”的仓库，这里必须留空！千万不要填 /al-folio，否则网页会失去所有排版样式。
 last_updated: true # 在页脚显示网站最后更新时间
