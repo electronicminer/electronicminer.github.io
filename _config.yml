@@ -19,15 +19,11 @@ icon: 📡 # 换成了代表通信工程的雷达图标
 
 # -----------------------------------------------------------------------------
 # 个人联系方式 (Social / Contact)
-# -----------------------------------------------------------------------------
-# Social
-email: wangpan040930@163.com
-github_username: electronicminer
-linkedin_username: 
-scholar_userid: 
-research_gate_profile: 
-rss_icon: false
-# 如果还有 x_username, telegram_username 等等，全都把冒号后面的删掉留空
+# 注意：社交媒体信息已统一配置在 _data/socials.yml 中，请在那里修改
+# Don't modify social media settings here; use _data/socials.yml instead
+# 【极其重要】url 和 baseurl 配置：
+# - 个人网站（username.github.io）：url: https://username.github.io, baseurl: ""
+# - 项目网站：url: https://username.github.io, baseurl: /repo-name
 url: https://electronicminer.github.io # 你的个人主页网址 (如果你改了用户名，请同步修改这里)
 baseurl: "" # 【极其重要】如果你使用的是“用户名.github.io”的仓库，这里必须留空！千万不要填 /al-folio，否则网页会失去所有排版样式。
 last_updated: true # 在页脚显示网站最后更新时间
